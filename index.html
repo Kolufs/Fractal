@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body scroll="no" style="overflow: hidden">
+    <canvas id="canvas"></canvas>
+    <section class="container">
+      <header>
+        <hr></hr>
+        <p>Escape Time Fractals</p>
+        <hr></hr>
+      </header>
+      <table>
+        <tr>
+          <td>
+            Fractal
+            <td><select id="fractalSelector" class="option"></select>
+            </td>
+          </td>
+        </tr>
+        <tr>
+          <td>Colorscheme
+          <td><select id="colorSelector" class="option"></select>
+          </td>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Iterations
+            <td>
+              <input class="option" id="iterForm"></input>
+            </td>
+          </td>
+        </tr>
+      </table>
+    <script type="module" src="./src/glue.ts" ></script><datalist>
+  </body>
+</html>
+
