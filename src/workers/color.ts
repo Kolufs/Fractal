@@ -1,4 +1,4 @@
-import { rgba, point, resolution, hsv} from "../types";
+import { rgba, point, resolution} from "../types";
 import { scale } from "../utils";
 
 export type ColorFn = {
