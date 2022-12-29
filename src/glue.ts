@@ -1,4 +1,4 @@
-import { Mandelbrot, SinkingShip, fractals } from "./fractal"
+import { Mandelbrot, fractals } from "./fractal"
 import { point, rectangle } from "./types"
 import { colorFuncs } from "./workers/color"
 
