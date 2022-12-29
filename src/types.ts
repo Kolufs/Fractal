@@ -76,11 +76,3 @@ export type hsv = {
     s: number,
     v: number,
 }
-
-export type workerMessage = {
-    range: range2D,
-    yLines: range,
-    resolution: resolution, 
-    sharedBuffer: SharedArrayBuffer, 
-    maxIters: number 
-}
